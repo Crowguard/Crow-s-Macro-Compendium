@@ -1,6 +1,7 @@
 {
   "id": "crows-macro-compendium",
   "title": "Crow's Macro Compendium",
+  "manifest": "https://github.com/Crowguard/Crow-s-Macro-Compendium/releases/latest/download/module.json",
   "version": "11.0.0",
   "compatibility": {
     "minimum": "11",
