@@ -27,14 +27,14 @@
       "name": "Crowguard"
     }
   ],
+      "url": "https://github.com/Crowguard/Crow-s-Macro-Compendium",
+      "manifest": "https://github.com/Crowguard/Crow-s-Macro-Compendium/releases/latest/download/module.json",
   "packs": [
     {
       "label": "Crow's Macro Compendium",
       "name": "crows-macro-compendium",
       "type": "Macro",
       "path": "packs/crows-macro-compendium"
-      "url": "https://github.com/ironmonk88/monks-wall-enhancement",
-      "manifest": "https://github.com/Crowguard/Crow-s-Macro-Compendium/releases/latest/download/module.json",
     }
   ]
 }
