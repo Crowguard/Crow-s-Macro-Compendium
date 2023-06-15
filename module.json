@@ -1,9 +1,15 @@
 {
   "id": "crows-macro-compendium",
   "title": "Crow's Macro Compendium",
+  "description": "Crow's collection of macros.",
+  "url": "https://github.com/Kalnix/fists-of-the-ruby-phoenix-map-remake-by-kalnix",
   "version": "11.0.0",
-  "download": "https://github.com/Crowguard/Crow-s-Macro-Compendium/archive/Crow-s-Macro-Compendium-11.0.0.zip",
-  "manifest": "https://github.com/Crowguard/Crow-s-Macro-Compendium/releases/latest/download/module.json",
+  "authors": [
+    {
+      "name": "Crowguard",
+      "flags": {}
+    }
+  ],
   "compatibility": {
     "minimum": "11",
     "verified": "11"
@@ -24,11 +30,6 @@
       }
     ]
   },
-  "authors": [
-    {
-      "name": "Crowguard"
-    }
-  ],
   "packs": [
     {
       "label": "Crow's Macro Compendium",
@@ -36,5 +37,7 @@
       "type": "Macro",
       "path": "packs/crows-macro-compendium"
     }
-  ]
+  ],
+  "manifest": "https://github.com/Crowguard/Crow-s-Macro-Compendium/main/module.json",
+  "download": "https://github.com/Crowguard/Crow-s-Macro-Compendium/archive/refs/tags/latest.zip"
 }
