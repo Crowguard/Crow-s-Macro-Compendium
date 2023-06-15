@@ -1,20 +1,40 @@
 {
+  "id": "crows-macro-compendium",
   "title": "Crow's Macro Compendium",
-  "description": "Crow's macro collection.",
-  "version": "11.01",
-  "authors": [
-    {
-      "name": "Crowguard",
-      "discord": "Crowguard#7458",
-      "ko-fi": "https://ko-fi.com/crowguard"
-    }
-  ],
-  "url": "https://github.com/Crowguard/Crow-s-Macro-Compendium",
-  "manifest": "https://github.com/Crowguard/Crow-s-Macro-Compendium/releases/latest/download/module.json",
+  "version": "1.0.0",
+  "compatibility": {
     "minimum": "11",
     "verified": "11"
   },
-  "name": "crows-macro-compendium",
-  "minimumCoreVersion": "11",
-  "compatibleCoreVersion": "11"
+  "relationships": {
+    "recommends": [
+      {
+        "id": "tagger",
+        "type": "module"
+      },
+      {
+        "id": "tokenmagic",
+        "type": "module"
+      },
+      {
+        "id": "sequencer",
+        "type": "module"
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "Crowguard"
+    }
+  ],
+  "packs": [
+    {
+      "label": "Crow's Macro Compendium",
+      "name": "crows-macro-compendium",
+      "type": "Macro",
+      "path": "packs/crows-macro-compendium"
+      "url": "https://github.com/ironmonk88/monks-wall-enhancement",
+      "manifest": "https://github.com/Crowguard/Crow-s-Macro-Compendium/releases/latest/download/module.json",
+    }
+  ]
 }
