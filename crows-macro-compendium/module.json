@@ -27,6 +27,13 @@
       "name": "Crowguard"
     }
   ],
+    "url": "https://github.com/Crowguard/Crow-s-Macro-Compendium",
+  "download": "https://github.com/ironmonk88/monks-wall-enhancement/archive/10.3.zip",
+  "manifest": "https://github.com/Crowguard/Crow-s-Macro-Compendium/releases/latest/download/module.json",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "10"
+  },
   "packs": [
     {
       "label": "Crow's Macro Compendium",
