@@ -1,0 +1,38 @@
+{
+  "id": "crows-macro-compendium",
+  "title": "Crow's Macro Compendium",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "relationships": {
+    "recommends": [
+      {
+        "id": "tagger",
+        "type": "module"
+      },
+      {
+        "id": "tokenmagic",
+        "type": "module"
+      },
+      {
+        "id": "sequencer",
+        "type": "module"
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "Crowguard"
+    }
+  ],
+  "packs": [
+    {
+      "label": "Crow's Macro Compendium",
+      "name": "crows-macro-compendium",
+      "type": "Macro",
+      "path": "packs/crows-macro-compendium"
+    }
+  ]
+}
